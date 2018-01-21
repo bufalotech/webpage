@@ -133,7 +133,7 @@ $(document).ready(function(){
               $('.contact_message').val() != '' ) {
 
             $.ajax({
-			    url: "//formspree.io/brunomartintenaglia@gmail.com",
+			    url: "//formspree.io/hola@bufalo.tech",
 			    method: "POST",
 			    data: {
 			        name: $('.contact_name').val() ,
