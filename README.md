@@ -19,7 +19,6 @@ grunt
 Development
 ==========
 
-* Type `grunt` to start watching
 * Type `grunt watch` to watch changes
 * The final result in is in public folder
 * Open public/index.html to see the webpage
