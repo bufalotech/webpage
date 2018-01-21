@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    {% include 'partials/nav.html' %}
+
+    <section id="about">
+        {% include 'partials/about.html' %}
+    </section>
+
+    <section id="our_service">
+        {% include 'partials/services.html' %}
+    </section>
+
+    <section id="technologies">
+        {% include 'partials/technologies.html' %}
+    </section>
+
+    <section id="team">
+        {% include 'partials/team.html' %}
+    </section>
+
+    <section id="clients">
+        {% include 'partials/clients.html' %}
+    </section>
+
+    <section id="testimonial">
+        {% include 'partials/testimonials.html' %}
+    </section>
+
+    <section id="contact">
+        {% include 'partials/contact.html' %}
+    </section>
+
+    <section id= "footer">
+        {% include 'partials/footer.html' %}
+    </section>
+
+{% endblock %}

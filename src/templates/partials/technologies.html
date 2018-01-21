@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row text-center" id= "heading">
+        <div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id= "heading-text">
+            <h3>Tecnologías</h3>
+            <p>Conozca con que tecnologías trabajamos</p>
+            <hr class= "full">
+            <br/>
+        </div>
+    </div>
+    <div class="main_content">
+        <div class="technologies">
+            <div class="row">
+                {% for technology in technologies %}
+                    <div class="col-xs-12 col-sm-6 col-md-3 technology">
+                        <a href="{{ technology.url }}" target="_blank">
+                          <img src="img/{{ technology.img }}" alt="{{ technology.name }}">
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

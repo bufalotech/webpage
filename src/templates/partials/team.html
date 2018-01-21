@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="team-members">
+        <div class="row text-center" id="heading">
+            <div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id="heading-text">
+                <h3>Nuestro equipo</h3>
+                <p>Conozca quienes están detrás de Bufalo Tech</p>
+                <hr class="full">
+                <br/>
+            </div>
+        </div>
+        <div class="row main_content">
+
+            {% for team in team_members %}
+            <div class="col-md-4 col-sm-6 text-center">
+                <div class="row wow animated zoomIn" data-wow-delay="0.1s">
+                    <div class="col-md-8 col-md-offset-2">
+                        <img class="img-circle img-responsive center-block" src="img/{{team.img}}" alt="{{team.name}}">
+                    </div>
+                </div>
+                <h4 class="wow animated fadeInUp" data-wow-delay= "0.2s">{{team.name}}</h4>
+                <p class= "member-title wow animated fadeIn" data-wow-delay= "0.3s">{{team.rol}}</p>
+                <div class= "row text-center wow animated fadeInDown" data-wow-delay= "0.5s">
+                    <div class= "team-member-contact">
+                        <a href="{{team.linkedin}}" target="_blank" data-toggle="tooltip" title="Linkedin" class= "team-facebook">
+                            <i class="fa fa-linkedin-square"></i>
+                        </a>
+
+                        <a href="{{team.github}}" target="_blank" data-toggle="tooltip" title="Github" class= "team-twitter">
+                            <i class="fa fa-github-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            {% endfor %}
+        </div> <!-- row main_content -->
+    </div>	<!-- team-members -->
+</div>	<!-- container -->

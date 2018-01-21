@@ -1,0 +1,35 @@
+<div class= "container">
+    <div class= "row text-center" id= "heading">
+        <div class= "bg-image col-md-12">
+            <div class= "col-md-6 col-md-offset-3 wow animated zoomInDown" id= "heading-text">
+                <h3>Testimonios</h3>
+                <p>Lo que opinan nuestros clientes de nosotros.</p>
+                <hr class= "full">
+                <br/>
+            </div>
+        </div>
+    </div>
+    <div class= "row main_content">
+        <div class= "col-md-6 col-md-offset-3">
+            <div id="client-speech" class="owl-carousel owl-theme">
+                {% for testimonial in testimonials %}
+                <div class="item">
+                    <div class= "row">
+                        <div class= "col-md-6 col-md-offset-3">
+                            <img class= "img-circle img-responsive center-block" src="img/{{ testimonial.img }}">
+                        </div>
+                        <div class= "col-md-12">
+                            <p class= "client-comment text-center">
+                                {{ testimonial.testimonial }}
+                            </p>
+                        </div>
+                    </div>
+                    <div class= "row text-center">
+                        <p class= "client-name text-center"> ----- {{ testimonial.firm }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,134 @@
+{
+  "technologies": [
+    {
+      "img": "python.png",
+      "name": "Python",
+      "url": "https://www.python.org"
+    },
+    {
+      "img": "django.png",
+      "name": "Django",
+      "url": "https://www.djangoproject.com/"
+    },
+    {
+      "img": "flask.png",
+      "name": "Flask",
+      "url": "http://flask.pocoo.org/"
+    },
+    {
+      "url": "http://www.php.net/",
+      "name": "Php",
+      "img": "php.png"
+    },
+    {
+      "url": "https://www.javascript.com/",
+      "name": "Javascript",
+      "img": "js.png"
+    },
+    {
+      "name": "Postgres",
+      "url": "http://www.postgresql.org/",
+      "img": "postgres.png"
+    },
+    {
+      "name": "MySql",
+      "url": "https://www.mysql.com/",
+      "img": "mysql.jpg"
+    },
+    {
+      "name": "Docker",
+      "url": "https://www.docker.org/",
+      "img": "docker.png"
+    },
+    {
+      "name": "Linux",
+      "url": "https://www.kernel.org/",
+      "img": "tux.png"
+    },
+    {
+      "name": "Amazon",
+      "url": "https://aws.amazon.com/es/",
+      "img": "aws.png"
+    },
+    {
+      "name": "Android",
+      "url": "https://www.android.com/",
+      "img": "android.jpg"
+    },
+    {
+      "name": "iOS",
+      "url": "https://www.apple.com/",
+      "img": "ios.png"
+    }
+  ],
+  "clients": [
+    {
+      "name": "STIB Ingeniería",
+      "img": "stib.png",
+      "url": "http://stib.com.ar"
+    },
+    {
+      "name": "Coderio",
+      "img": "coderio.jpg",
+      "url": "http://coderio.co"
+    },
+    {
+      "name": "Cervecería 372",
+      "img": "372.png",
+      "url": "http://www.cerveceria372.com/"
+    },
+    {
+      "name": "Celebrity Bridal",
+      "img": "celebrity.png",
+      "url": "http://www.celebritybridalandformals.com/"
+    },
+    {
+      "name": "Prepmo",
+      "img": "prepmo.png",
+      "url": "http://prepmo.com"
+    },
+    {
+      "name": "Contadores Rosario",
+      "img": "contadoresrosario.png",
+      "url": "http://contadoresrosario.com"
+    },
+    {
+      "name": "Turismo Génesis",
+      "img": "genesis.png",
+      "url": "http://www.genesis-tours.co.il/"
+    }
+  ],
+  "team_members": [
+    {
+      "img": "bruno_tenaglia.png",
+      "name": "Bruno Tenaglia",
+      "rol": "Founder, Director IT",
+      "github": "http://github.com/btenaglia",
+      "linkedin": "https://www.linkedin.com/in/btenaglia/"
+    },
+    {
+      "img": "pablo_maestri.png",
+      "name": "Pablo Maestri",
+      "rol": "Web & mobile developer",
+      "github": "https://github.com/pablomaestri",
+      "linkedin": "https://www.linkedin.com/in/ing-pablo-sebasti%C3%A1n-maestri-2a3b0b13/"
+    }
+  ],
+  "testimonials": [
+    {
+      "img": "pablo_morales.png",
+      "testimonial": "Idoneidad, responsabilidad y compromisos fueron los valores de Bufalo que acompañaron a su asesoramiento profesional para alcanzar nuestro mayor desarrollo digital.",
+      "firm": "Pablo Morales - Contadores Rosario"
+    },
+    {
+      "img": "mauricio_372.png",
+      "testimonial": "I am constantly being asked about individuals.&nbsp;The only way to win is as a team. Football is not about one or two or three star players.",
+      "firm": "Mauricio - Cerveceria Artesanal 372"
+    },
+    {
+      "img": "juan_ignacio_dadamia.png",
+      "testimonial": "En Buafalo delegamos la consultoría y la implementacion tecnológica de nuestra empresa, con soluciones rápidas, confiables y adecuadas a nuestros requerimientos",
+      "firm": "Ing. Juan Ignacio Dadamia - STIB"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row text-center" id= "heading">
+        <div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id= "heading-text">
+            <h3>Nuestros clientes</h3>
+            <p>Conozca nuestros clientes</p>
+            <hr class= "full">
+            <br/>
+        </div>
+    </div>
+    <div class="main_content">
+        <div class="clients">
+            <div class="row">
+                {% for client in clients %}
+                    <div class="col-xs-12 col-sm-6 col-md-3 client">
+                        <a href="{{ client.url }}" target="_blank">
+                          <img src="img/{{ client.img }}" alt="{{ client.name }}">
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
