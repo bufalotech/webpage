@@ -73,9 +73,9 @@
       "url": "http://coderio.co"
     },
     {
-      "name": "Cervecería 372",
-      "img": "372.png",
-      "url": "http://www.cerveceria372.com/"
+      "name": "Durum Delivery",
+      "img": "durum.jpg",
+      "url": "#"
     },
     {
       "name": "Celebrity Bridal",
@@ -96,7 +96,13 @@
       "name": "Turismo Génesis",
       "img": "genesis.png",
       "url": "http://www.genesis-tours.co.il/"
+    },
+    {
+      "name": "Cervecería 372",
+      "img": "372.png",
+      "url": "http://www.cerveceria372.com/"
     }
+
   ],
   "team_members": [
     {
