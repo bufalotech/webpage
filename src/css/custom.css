@@ -333,6 +333,7 @@ hr
 .technology img {
     max-width: 190px;
     max-height: 100px;
+    margin-bottom: 16px;
 }
 /*==================== Clients =========================*/
 .client img {
