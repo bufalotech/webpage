@@ -136,6 +136,10 @@ iframe
 {
     border-radius: 0px;
 }
+
+.logo img {
+    width: 700px;
+}
 /*-----------------------------------------------------------------------------------------------------
                                 navbar
 -------------------------------------------------------------------------------------------------------*/
@@ -865,11 +869,19 @@ form
     {
         font-size: 70px;
     }
+
+    .logo img {
+        width: 300px;
+    }
 }
 @media (max-width: 405px){
     #heading-text h3
     {
         font-size: 45px;
+    }
+
+    .logo img {
+        width: 200px;
     }
 }
 @media (max-width: 350px){
@@ -880,6 +892,10 @@ form
     .starting-text h2
     {
         font-size: 35px;
+    }
+
+    .logo img {
+        width: 80px;
     }
 }
 /* 
@@ -908,6 +924,10 @@ form
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     color: #FFFFFF;
+}
+
+.navbar-brand img {
+    width: 150px;
 }
 
 .btn-primary {

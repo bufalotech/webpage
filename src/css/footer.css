@@ -110,3 +110,8 @@
    flex: 0 0 auto;
    -webkit-flex: 0 0 auto;
 }
+
+#myFooter .logo img {
+    width: 250px;
+    margin-top: 30px;
+}
