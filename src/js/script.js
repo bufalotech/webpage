@@ -125,37 +125,19 @@ $(document).ready(function(){
     var form =$('.contact_form');
     form.submit(function(e){
 
-        e.preventDefault();
 
         if ( $('.contact_name').val() != '' &
              $('.contact_email').val() != '' &
              $('.contact_subject').val() != '' &
               $('.contact_message').val() != '' ) {
 
-            $.ajax({
-			    url: "//formspree.io/hola@bufalo.tech",
-			    method: "POST",
-			    data: {
-			        name: $('.contact_name').val() ,
-			        _subject:"[BUFALO WEB]: New Message",
-			        mensaje: $('.contact_message').val(),
-			        email: $('.contact_email').val()
-			    },
-			    dataType: "json",
-			    beforeSend: function() {
-                    form.append('<div class="alert alert--loading">Sending message…</div>');
-                },
-                success: function(data) {
-                     form.find('.alert').hide();
-                     form.append('<div class="alert alert--success">Pronto nos pondremos en contacto!</div>');
-                },
-                error: function(err) {
-                     form.find('.alert--loading').hide();
-                     form.append('<div class="alert alert--error">Ops, there was an error.</div>');
-                }
-			})
+            form.find('.alert').hide();
+            form.append('<div class="alert alert--success">Pronto nos pondremos en contacto!</div>');
+
+            return;
 
         } else {
+            e.preventDefault();
             alert('Complete todos los campos del formulario')
         }
     });
