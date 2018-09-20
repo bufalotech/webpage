@@ -106,6 +106,16 @@
       "name": "Moka-Moka",
       "img": "moka-moka.png",
       "url": "http://www.moka-moka.com/"
+    },
+    {
+      "name": "RedVet",
+      "img": "red-vet.png",
+      "url": "http://redvet.com.ar/"
+    },
+    {
+      "name": "DotCom",
+      "img": "dotcom.png",
+      "url": "https://dotcom.com.ar/"
     }
 
   ],
