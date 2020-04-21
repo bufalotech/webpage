@@ -59,9 +59,24 @@
       "name": "iOS",
       "url": "https://www.apple.com/",
       "img": "ios.png"
+    },
+    {
+      "name": "Wordpress",
+      "url": "https://es.wordpress.com/",
+      "img": "wp.png"
+    },
+    {
+      "name": "Ionic",
+      "url": "https://ionicframework.com/",
+      "img": "ionic.png"
     }
   ],
   "clients": [
+    {
+      "name": "Haagen Dazs",
+      "img": "avp.png",
+      "url": "https://avpgestioncomercial.com.ar"
+    },	
     {
       "name": "STIB Ingeniería",
       "img": "stib.png",
@@ -75,7 +90,7 @@
     {
       "name": "Durum Delivery",
       "img": "durum.jpg",
-      "url": "#"
+      "url": "https://durum.com.ar"
     },
     {
       "name": "Celebrity Bridal",
@@ -116,7 +131,37 @@
       "name": "DotCom",
       "img": "dotcom.png",
       "url": "https://dotcom.com.ar/"
-    }
+    },
+    {
+      "name": "MDA",
+      "img": "mda.gif",
+      "url": "https://www.mdais.org/en/"
+    },
+    {
+      "name": "Municipalidad de Rosario",
+      "img": "rosario.png",
+      "url": "https://www.rosario.gob.ar/web/"
+    },
+    {
+      "name": "Colchones Arco Iris",
+      "img": "colchones-arcoiris.png",
+      "url": "https://www.colchonesarcoiris.com/"
+    },
+    {
+      "name": "Big Point",
+      "img": "bigpoint.png",
+      "url": "https://bigpoint.com.ar/"
+    },
+    {
+      "name": "Makor",
+      "img": "makor.png",
+      "url": "http://makorsa.com.ar/"
+    },
+    {
+      "name": "HNader",
+      "img": "hnader.png",
+      "url": "https://hnader.com.ar"
+    }	
 
   ],
   "team_members": [
