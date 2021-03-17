@@ -73,6 +73,21 @@
   ],
   "clients": [
     {
+      "name": "Supermayorista Vital",
+      "img": "vital.png",
+      "url": "https://vital.com.ar"
+    },
+    {
+      "name": "Agencia El Abuelo",
+      "img": "elabuelo.png",
+      "url": "https://www.agenciaelabuelo.com.ar/"
+    },
+    {
+      "name": "XUVO Technologies",
+      "img": "xuvo.png",
+      "url": "https://xuvotech.com/"
+    },
+    {
       "name": "Haagen Dazs",
       "img": "avp.png",
       "url": "https://avpgestioncomercial.com.ar"
@@ -91,6 +106,11 @@
       "name": "Durum Delivery",
       "img": "durum.jpg",
       "url": "https://durum.com.ar"
+    },
+    {
+      "name": "B7 Devs",
+      "img": "b7devs.jpg",
+      "url": "http://www.b7dev.com/"
     },
     {
       "name": "Celebrity Bridal",

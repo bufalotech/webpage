@@ -4,7 +4,7 @@ var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var data = require('gulp-data');
 var uglify = require('gulp-uglify');
-var runSequence = require('run-sequence');
+var runSequence = require('gulp4-run-sequence');
 var cssnano = require('gulp-cssnano');
 var watch = require('gulp-watch');
 
