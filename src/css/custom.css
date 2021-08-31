@@ -33,11 +33,11 @@ a:hover {
 }
 
 .navbar-white li a {
-    color: #16a085 !important;
+    color: #199C9D !important;
 }
 
 .navbar-white .navbar-brand {
-    color: #16a085 !important;
+    color: #199C9D !important;
 }
 
 .navbar-white button.navbar-toggle {
@@ -147,7 +147,7 @@ iframe
 {
     border-radius: 0px;
     border: 0;
-    background-color: rgba(0,0,0,0.19);
+    background-color:#1B9B9C;
 }
 .navbar-default .navbar-nav>li>a {
     font-size: 16px;
@@ -349,7 +349,7 @@ hr
 .contact {
     padding: 6% 10% 0 10%;
     min-height: 440px;
-    background-color: #16a085;
+    background-color: #199C9D;
 }
 
 .contact ul li .fa {
@@ -939,8 +939,8 @@ form
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #16a085;
-    border-color: #16a085;
+    background-color: #199C9D;
+    border-color: #199C9D;
 }
 
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
@@ -974,7 +974,7 @@ form
 }
 
 .pagination>li>a, .pagination>li>span {
-    color: #16a085;
+    color: #199C9D;
 }
 
 #port-items .col-md-4 {

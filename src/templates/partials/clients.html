@@ -12,9 +12,7 @@
             <div class="row">
                 {% for client in clients %}
                     <div class="col-xs-12 col-sm-6 col-md-3 client">
-                        <a href="{{ client.url }}" target="_blank">
-                          <img src="img/{{ client.img }}" alt="{{ client.name }}">
-                        </a>
+                        <img src="img/{{ client.img }}" alt="{{ client.name }}">
                     </div>
                 {% endfor %}
             </div>

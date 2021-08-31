@@ -73,6 +73,16 @@
   ],
   "clients": [
     {
+      "name": "Grain Chain",
+      "img": "grain-chain.png",
+      "url": "https://www.grainchain.io/"
+    },
+    {
+      "name": "Petmosphere",
+      "img": "petmo.png",
+      "url": "https://petmosphere.com"
+    },
+    {
       "name": "Supermayorista Vital",
       "img": "vital.png",
       "url": "https://vital.com.ar"
@@ -86,6 +96,11 @@
       "name": "XUVO Technologies",
       "img": "xuvo.png",
       "url": "https://xuvotech.com/"
+    },
+    {
+      "name": "Panorama",
+      "img": "panorama.png",
+      "url": ""
     },
     {
       "name": "Haagen Dazs",
