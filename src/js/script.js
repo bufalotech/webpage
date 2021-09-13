@@ -86,7 +86,7 @@ $(document).ready(function(){
 			navigation : false, // Show next and prev buttons
 			slideSpeed : 1000,
 			paginationSpeed : 1000,
-			singleItem:true
+			singleItem:false
 		});
 
     var setHomeBannerHeight = function(){
