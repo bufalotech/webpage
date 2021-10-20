@@ -78,9 +78,19 @@
       "url": "https://www.grainchain.io/"
     },
     {
+      "name": "Custeed",
+      "img": "custeed.jpg",
+      "url": "https://www.custeed.com/?lang=es"
+    },
+    {
       "name": "Petmosphere",
       "img": "petmo.png",
       "url": "https://petmosphere.com"
+    },
+    {
+      "name": "Joyería Perret",
+      "img": "perret.png",
+      "url": "https://www.joyeriaperret.com.ar/"
     },
     {
       "name": "Supermayorista Vital",
