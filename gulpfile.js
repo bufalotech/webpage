@@ -70,21 +70,13 @@ gulp.task('fonts', function() {
 
 /* Watch */
 gulp.task('watch', function() {
-
-  gulp.watch('src/js/*.js', ['scripts']);
-
-  gulp.watch('src/js/libs/*.js', ['scripts-libs']);
-
-  gulp.watch('src/css/*.css', ['styles']);
-
-  gulp.watch('src/css/libs/*.css', ['styles-libs']);
-
-  gulp.watch('src/fonts/**/*.*', ['fonts']);
-
-  gulp.watch('src/img/**/*.{gif,jpg,png,svg}', ['images']);
-
-  gulp.watch(['src/templates/**/*.html', 'src/*.json'], ['nunjucks']);
-
+  gulp.watch('src/js/*.js', gulp.series('scripts'));
+  gulp.watch('src/js/libs/*.js', gulp.series('scripts-libs'));
+  gulp.watch('src/css/*.css', gulp.series('styles'));
+  gulp.watch('src/css/libs/*.css', gulp.series('styles-libs'));
+  gulp.watch('src/fonts/**/*.*', gulp.series('fonts'));
+  gulp.watch('src/img/**/*.{gif,jpg,png,svg}', gulp.series('images'));
+  gulp.watch(['src/templates/**/*.html', 'src/*.json'], gulp.series('nunjucks'));
 });
 
 

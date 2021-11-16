@@ -713,6 +713,39 @@ a
 {
     padding: 40px 0px 25px 0px;
 }
+
+/*---------------------------------------------------------------------------------------------------
+                Hiring
+----------------------------------------------------------------------------------------------------*/
+.hiring-title {
+    color: #1b9b9c
+}
+
+.btn-cv {
+    border: 1px solid;
+    border-color: #d84b6b;
+    color: #d84b6b;
+    background: transparent;
+}
+
+.btn-cv:hover{
+    color: #d84b6b;
+}
+
+.hiring-name {
+    color: #d84b6b;
+}
+
+.hiring-menu-link{
+    border: 1px solid;
+    padding: 5px !important;
+    border-radius: 11px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-top: auto !important;
+}
+
+
 /* ---------------------------------------------------------------------------------------------------
                             contact
  ---------------------------------------------------------------------------------------------------*/
