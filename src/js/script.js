@@ -125,14 +125,29 @@ $(document).ready(function(){
     var form =$('.contact_form');
     form.submit(function(e){
 
+        e.preventDefault();
+
 
         if ( $('.contact_name').val() != '' &
              $('.contact_email').val() != '' &
-             $('.contact_subject').val() != '' &
               $('.contact_message').val() != '' ) {
 
-            form.find('.alert').hide();
-            form.append('<div class="alert alert--success">Pronto nos pondremos en contacto!</div>');
+                Email.send({
+                    SecureToken : "e0e72f2e-aa5e-4dc1-b5a1-7427acb713ea",
+                    To : 'brunomartintenaglia@gmail.com',
+                    From : $('.contact_email').val(),
+                    Subject : "Nuevo mensaje desde la web",
+                    Body : "Nombre: " + $('.contact_name').val() + " <br> Correo: " + $('.contact_email').val() +"<br> Mensaje: " + $('.contact_message').val()
+                }).then(
+                  
+                );
+
+                $('.contact_name').val("");
+                $('.contact_email').val("");
+                $('.contact_message').val("");
+
+                form.find('.alert').hide();
+                form.append('<div class="alert alert--success">Gracias por escribirnos, pronto nos pondremos en contacto!</div>');
 
             return;
 
