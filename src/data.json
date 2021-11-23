@@ -235,6 +235,16 @@
       "img": "juan_ignacio_dadamia.png",
       "testimonial": "En Búfalo delegamos la consultoría y la implementación tecnológica de nuestra empresa, con soluciones rápidas, confiables y adecuadas a nuestros requerimientos.",
       "firm": "Ing. Juan Ignacio Dadamia - STIB"
+    },
+    {
+      "img": "f_petmosphere.png",
+      "testimonial": "Hasta ahora he quedado impresionado con varias cosas: su conocimiento dentro de los servicios que necesito como también su amplia comunicación dentro de lo que viene siendo una relación de negocios.",
+      "firm": "Francisco Alvarez - Petmoshphere"
+    },
+    {
+      "img": "imauri.png",
+      "testimonial": "Llevamos meses trabajando con el equipo de Búfalo bajo los servicios de Staff Augmentation, cumplieron perfecto en todos los aspectos, tanto técnicos como profesionales. Muy recomendable.",
+      "firm": "Ivan Mauri - Xuvo Technologies"
     }
   ]
 }

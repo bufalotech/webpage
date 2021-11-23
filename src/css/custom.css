@@ -1174,3 +1174,10 @@ form
     .input-group-addon {
         background-color: rgba(238, 238, 238, 0);
     }
+
+    .img-responsive {
+        width: 150px;
+        height: 150px;
+        border-radius: 50px;
+        border-color: #3acab1;
+    }
