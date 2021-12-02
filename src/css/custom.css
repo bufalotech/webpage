@@ -254,6 +254,13 @@ h5
     padding-top: 10px;
 }
 
+.slogan {
+    font-size: 45px;
+}
+
+.slogan-resalt {
+    color: white;
+}
 /*----------------------------------------------------------------------------------------------------
 Our service
 -----------------------------------------------------------------------------------------------------*/
@@ -373,7 +380,6 @@ hr
     color: #fff;
     margin-bottom: 30px;
     padding: 0 0 0 40px;
-    text-transform: uppercase;
     position: relative;
 }
 
@@ -383,6 +389,55 @@ hr
 
 .alert {
     color: red
+}
+
+
+/*===================================================================================================
+                            your team
+=====================================================================================================*/
+.your-team-container {
+    background-color: #3acab1;
+    padding-left: 20%;
+    padding-right: 10%;
+}
+
+.neashore-title-block {
+    border-left: solid 5px white;
+}
+
+.neashore-title{
+    font-size: 65px;
+}
+
+.neashore-subtitle {
+    font-size: 45px;
+}
+
+.neashore-desc {
+    font-size: 20px;
+}
+
+.nearshore-services {
+    color: white;
+}
+
+.service-card {
+    text-align: center;
+}
+
+.service-cards {
+    margin-top: 25px;
+}
+
+.calendly-link {
+    color: #fff;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin-top: 50px;
+    line-height: 30px;
 }
 
 /*===================================================================================================
@@ -743,6 +798,16 @@ a
     padding-right: 15px !important;
     padding-left: 15px !important;
     margin-top: auto !important;
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-cv-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
 }
 
 

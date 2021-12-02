@@ -10,7 +10,14 @@
             <div class="col-md-12 text-center" >
                 <h1 class="hiring-title">¡SUMATE AL TEAM BÚFALO!</h1>
                 <h2 class="hiring-title">¡Sé parte del equipo!</h2><br><br>
-                <input type="submit" class="btn btn-cv" value="Cargar tu CV">
+
+                <label class="custom-file-cv-upload ">
+                    <input type="file" onchange="uploadFileToServer()" id="fileupload"/>
+                    <i class="fa fa-cloud-upload"></i> Carga tu CV
+                </label>
+
+                <div class="cv-upload-success"></div>
+
             </div>
         </div>	<!-- row -->
     </div>	<!-- container -->

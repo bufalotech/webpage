@@ -158,3 +158,34 @@ $(document).ready(function(){
     });
 
 });
+
+
+
+function uploadFileToServer()
+{
+  var file = event.srcElement.files[0];
+   var reader = new FileReader();
+   reader.readAsBinaryString(file);
+   reader.onload = function () {
+       var dataUri = "data:" + file.type + ";base64," + btoa(reader.result);
+       Email.send({
+            SecureToken : "e0e72f2e-aa5e-4dc1-b5a1-7427acb713ea",
+            To : 'brunomartintenaglia@gmail.com',
+            From : 'brunomartintenaglia@gmail.com',
+           Subject : "CV desde la pagina web",
+           Body : "Sending file:" + file.name,
+           Attachments : [
+          	{
+          		name : file.name,
+          		data : dataUri
+          	}]
+       }).then(
+         
+       );
+
+       $('.cv-upload-success').append('<div class="alert alert--success">Hemos recibido tu CV, pronto nos pondremos en contacto!</div>');
+   };
+   reader.onerror = function() {
+       console.log('there are some problems');
+   };
+}

@@ -69,6 +69,11 @@
       "name": "Ionic",
       "url": "https://ionicframework.com/",
       "img": "ionic.png"
+    },
+    {
+      "name": "ReactJs",
+      "url": "https://es.reactjs.org/",
+      "img": "reactjs.png"
     }
   ],
   "clients": [
