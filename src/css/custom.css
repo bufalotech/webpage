@@ -356,7 +356,7 @@ hr
 .contact {
     padding: 6% 10% 0 10%;
     min-height: 440px;
-    background-color: #199C9D;
+    background-color:  #1A9B9C;
 }
 
 .contact ul li .fa {
@@ -396,7 +396,7 @@ hr
                             your team
 =====================================================================================================*/
 .your-team-container {
-    background-color: #3acab1;
+    background-color: #1A9B9C;
     padding-left: 20%;
     padding-right: 10%;
 }
