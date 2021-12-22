@@ -1246,3 +1246,9 @@ form
         border-radius: 50px;
         border-color: #3acab1;
     }
+
+    .btn-success {
+        color: #fff;
+        background-color: #1A9B9C;
+        border-color: #1A9B9C;
+    }
