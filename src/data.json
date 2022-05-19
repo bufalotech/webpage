@@ -88,6 +88,11 @@
       "url": "https://www.custeed.com/?lang=es"
     },
     {
+      "name": "Chekin",
+      "img": "chekin.png",
+      "url": ""
+    },
+    {
       "name": "Petmosphere",
       "img": "petmo.png",
       "url": "https://petmosphere.com"
@@ -101,6 +106,11 @@
       "name": "Supermayorista Vital",
       "img": "vital.png",
       "url": "https://vital.com.ar"
+    },
+    {
+      "name": "Eycom",
+      "img": "eycom.png",
+      "url": ""
     },
     {
       "name": "Agencia El Abuelo",
